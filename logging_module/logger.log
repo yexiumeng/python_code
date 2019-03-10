@@ -1,0 +1,16 @@
+INFO:root:info message
+WARNING:root:warn message
+ERROR:root:error message
+CRITICAL:root:critical message
+2019-03-10 16:01:22,668 logging_func <module> 19 INFO: info message
+2019-03-10 16:01:22,668 logging_func <module> 20 WARNING: warn message
+2019-03-10 16:01:22,668 logging_func <module> 21 ERROR: error message
+2019-03-10 16:01:22,668 logging_func <module> 22 CRITICAL: critical message
+2019-03-10 16:04:35,769 logging_func logging_info 20 INFO: info message
+2019-03-10 16:04:35,769 logging_func logging_info 21 WARNING: warn message
+2019-03-10 16:04:35,769 logging_func logging_info 22 ERROR: error message
+2019-03-10 16:04:35,769 logging_func logging_info 23 CRITICAL: critical message
+2019-03-10 16:07:03,050 logging_func logging_info 23 INFO: info message
+2019-03-10 16:07:03,051 logging_func logging_info 24 WARNING: warn message
+2019-03-10 16:07:03,051 logging_func logging_info 25 ERROR: error message
+2019-03-10 16:07:03,051 logging_func logging_info 26 CRITICAL: critical message
