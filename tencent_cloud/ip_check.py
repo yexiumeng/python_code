@@ -54,7 +54,7 @@ for domain in domain_list:
     domain_records = requests.get(domain_ip_url).json()["data"]["records"]
     for i in domain_records:
         if i['type'] == "A":
-            val = str(i["name"])+"."+str(domain)
+            val = str(domain)+"_"+str(i["name"])
             key = str(i["value"])
             domain_ip_list.append(key) 
             if key in domain_ip_dict:    #判断domain_ip_list字典是否有相同IP，有则对该IP做处理，防止被覆盖
